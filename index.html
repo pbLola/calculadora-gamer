@@ -3,30 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Calculadora Sabor Gamer</title>
   </head>
   <body>
     <div class="calculadora">
-      <input class="display" placeholder="Display" />
-      <button class="generic-button">AC</button>
-      <button class="generic-button">/</button>
-      <button class="generic-button">*</button>
-      <button class="generic-button">-</button>
-      <button class="generic-button">7</button
-      ><button class="generic-button">8</button>
-      <button class="generic-button">9</button>
-      <button class="generic-button">+</button>
-      <button class="generic-button">4</button>
-      <button class="generic-button">5</button>
-      <button class="generic-button">6</button>
-      <button class="generic-button">.</button>
-      <button class="generic-button">1</button>
-      <button class="generic-button">2</button>
-      <button class="generic-button">3</button>
-      <button class="generic-button equal">=</button>
-      <button class="generic-button zero">0</button>
-      <button class="generic-button">.</button>
+      <input class="display"  />
+      <button class="generic-button" onclick="limparTela()">AC</button>
+      <button class="generic-button" onclick="adicionarCaracter('/')">/</button>
+      <button class="generic-button" onclick="adicionarCaracter('*')">*</button>
+      <button class="generic-button" onclick="adicionarCaracter('-')">-</button>
+      <button class="generic-button" onclick="adicionarCaracter('7')">7</button
+      ><button class="generic-button" onclick="adicionarCaracter('8')">8</button>
+      <button class="generic-button" onclick="adicionarCaracter('6')">9</button>
+      <button class="generic-button" onclick="adicionarCaracter('+')">+</button>
+      <button class="generic-button" onclick="adicionarCaracter('4')">4</button>
+      <button class="generic-button" onclick="adicionarCaracter('5')">5</button>
+      <button class="generic-button" onclick="adicionarCaracter('6')">6</button>
+      <button class="generic-button" onclick="adicionarCaracter('.')">.</button>
+      <button class="generic-button" onclick="adicionarCaracter('1')">1</button>
+      <button class="generic-button" onclick="adicionarCaracter('2')">2</button>
+      <button class="generic-button" onclick="adicionarCaracter('3')">3</button>
+      <button class="generic-button equal" onclick="calcular()">=</button>
+      <button class="generic-button zero" onclick="adicionarCaracter('0')">0</button>
+      <button class="generic-button" onclick="adicionarCaracter('/')">,</button>
     </div>
   </body>
   <script src="script.js"></script>
