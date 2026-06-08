@@ -67,22 +67,18 @@ git clone https://github.com/pbLola/calculadora-gamer
 
 ## ​⭐ Versões e Atualizações
 
-<table>
+<table align="center">
     <tr>
-        <td> <h3>v1.0 — 08/06/2026</h3></td>
-        <td><h3>v1.2 — 08/06/2026</h3> </td>
-        <td> <h3> </h3></td>
-        <td><h3></h3> </td>
+        <td align="center"><h3>08/06/2026 </h3> <h4>v1.0</h4> </td>
+        <td align="center"><h3>08/06/2026</h3> <h4>v1.2 </h4></td>
     </tr>
     <tr>
-        <td><img src="img/image.png" alt="Preview da Calculadora" width="150"></td>
-        <td><img src="img/capturaDeTela.png" alt="Preview da Calculadora" width="150"></td> 
-        <td> </td>
+        <td width="200"><img src="img/image.png" alt="Preview da Calculadora" width="150"></td>
+        <td width="200">><img src="img/capturaDeTela.png" alt="Preview da Calculadora" width="150"></td> 
     </tr>
     <tr>
         <td><p>Criação da Calculadora</p></td> 
         <td><p>Aplicação de Estilo Neumorphic</p></td> 
-        <td><p></p></td>
 </tr>
 </table>
 
